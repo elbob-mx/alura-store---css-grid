@@ -11,16 +11,16 @@
 }
 
 .encabezado {
-    background-color: #006560;
+    /* background-color: #006560; */
     grid-area: encabezado;
 }
 
 .contenido {
-    background-color: #472243;
+    /* background-color: #472243; */
     grid-area: contenido;
 }
 
 .rodapie { 
-    background-color: #F2B219;
+    /* background-color: #F2B219; */
     grid-area: rodapie;
 }
