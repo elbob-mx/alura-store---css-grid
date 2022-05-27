@@ -11,16 +11,37 @@
 }
 
 .encabezado {
-    /* background-color: #006560; */
+    align-items: center;
+    display: flex;
     grid-area: encabezado;
+    padding: 0 2rem;
+}
+
+.menu__link {
+    font-weight: bold;
+    color: #333333;
+    padding: 0.5rem 1rem;
+}
+
+.menu__link:hover {
+    color: #000000;
+}
+
+.menu__link:active {
+    color: white;
+    background-color: #333333;
 }
 
 .contenido {
-    /* background-color: #472243; */
     grid-area: contenido;
 }
 
-.rodapie { 
-    /* background-color: #F2B219; */
+.rodapie {
+    background: #FDFDFD;
+    color: #333333;
     grid-area: rodapie;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: .8rem;
 }
